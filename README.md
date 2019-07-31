@@ -12,6 +12,8 @@ Pour Opera : utilisez l'extension [Install Chrome Extension](https://addons.oper
 
 3. Se rendre sur [LeParisien.fr](http://www.leparisien.fr). Cliquer sur l'icône de TamperMonkey et vérifier que le script est bien activé : ![alt text](https://www.zupimages.net/up/19/31/if4k.png "Extension activé")
 
+   Cliquer sur le bouton "AFFICHER LE TEXTE !" pour déflouter l'article.  
+
 # Contact
 * [Maxime GORJUX](https://maxime.gorjux.com)
 * maxime@gorjux.com
