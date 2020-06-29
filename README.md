@@ -1,3 +1,5 @@
+**Suite a une mise a jour du [site Le Parisien](http://www.leparisien.fr), ce script ne fonctionne plus.**
+
 # LeParisienGratuit
 Le Parisien Gratuit est un script permettant de rendre visible a tous, les articles premium du [site Le Parisien](http://www.leparisien.fr). Ce script permet de :
 * Supprimer la pop up d'inscription / connexion
