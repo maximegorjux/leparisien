@@ -19,4 +19,6 @@ Pour Opera : utilisez l'extension [Install Chrome Extension](https://addons.oper
 * [Maxime GORJUX](https://maxime.gorjux.com)
 * maxime@gorjux.com
 
+
+
 _Ce script peut ne plus marcher du jour au lendemain si le site décider de changer sa façon de fonctionner (c'est déjà arrivé, mais, par chance, ils ont fait machine arrière)_
