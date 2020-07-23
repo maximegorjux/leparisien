@@ -3,6 +3,7 @@ Le Parisien Gratuit est un script permettant de rendre visible a tous, les artic
 * Supprimer la pop up d'inscription / connexion
 * Supprimer la pop up d'inscription a la newletter
 * Ajoute un bouton permettant de déflouter le texte (le bouton disparait après le clic)
+* Remplace les textes "Abonnés" par "Gratuit !"
 
 # Installation
 1. Installer une extension d'userscript dans votre navigateur. TamperMonkey par exemple ([Tampermonkey pour Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr), [Tampermonkey pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)).
