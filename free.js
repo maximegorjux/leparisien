@@ -34,7 +34,6 @@
     //fontion déflouter / enlève bouton
     $("button").click(function(){
         $(".content").css({"filter": "blur(0px)"});
-        $(".btn.btn-outline-warning").remove();
     });
 
     //fonction déflouter le texte - lancée toutes les secondes
