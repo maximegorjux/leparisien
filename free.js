@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         LeParisienGratuit
 // @namespace    https://github.com/maximegorjux/leparisien/
-// @version      1.0
+// @version      2.0
 // @description  Affiche les articles du parisien gratuitement
 // @author       Maxime Gorjux
 // @include		 *leparisien.fr/*
@@ -27,7 +27,7 @@
     // supprimer la pop inscription
     $(".sticky.below_nav.piano-paywall.relative").remove();
     //ajoute le bouton pour déflouter
-    $(".width_full.flex").prepend('<button class="btn btn-outline-warning" style="font-size : 50px; height: 200px; width: 600px">AFFICHER LE TEXTE !</button>');
+    $(".width_full.flex").prepend('<button class="btn btn-outline-warning">Le texte sera déflouté automatiquement.</br>Si le texte reste flou après plusieurs secondes, cliquez ici</button>');
     //enlève les pop newletter
     $(".margin_bottom_md").remove();
 
@@ -35,7 +35,15 @@
     $("button").click(function(){
         $(".content").css({"filter": "blur(0px)"});
         $(".btn.btn-outline-warning").remove();
-  });
+    });
+
+    //fonction déflouter le texte - lancée toutes les secondes
+    function deFlouter(){
+        $(".content").css({"filter": "blur(0px)"});
+        setTimeout(deFlouter,1000); // rappel après 1 secondes = 1000 millisecondes
+    }
+
+    deFlouter();
 
 
 })();
