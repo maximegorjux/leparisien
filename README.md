@@ -13,7 +13,7 @@ Pour Opera : utilisez l'extension [Install Chrome Extension](https://addons.oper
 
 2. Ajouter le script à TamperMonkey, le script à ajouter se trouve à [cette adresse](https://github.com/maximegorjux/leparisien/blob/master/free.js). Il faut recopier l'ensemble du script et sauvegarder
 
-3. Se rendre sur [LeParisien.fr](http://www.leparisien.fr). Cliquer sur l'icône de TamperMonkey et vérifier que le script est bien activé :
+3. Se rendre sur [LeParisien.fr](http://www.leparisien.fr). Cliquer sur l'icône de TamperMonkey et vérifier que le script est bien activé :  
 ![alt text](https://www.zupimages.net/up/19/31/if4k.png "Extension activé")
 
    Le texte sera déflouté automatiquement. Si le texte reste flouté plusieurs secondes, vous pouvez cliquer sur le bouton suivant "Le texte sera déflouté automatiquement. Si le texte reste flou après plusieurs secondes, cliquez ici".
