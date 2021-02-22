@@ -18,11 +18,9 @@
     //ajoute css bootstrap
     $(".width_full.flex").prepend('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">');
 
-    //supprime label "abonnés"
-    $(".tag.label.abo").remove();
-    //ajoute label "gratuit" a la place de "abonnés"
-    $(".col.tag_wrapper.flex_wrap").prepend('<span class="tag label abo">Gratuit !</span>');
-    $(".story-overlay").append('<span class="tag label abo">Gratuit !</span>');
+    // change message pour ajouter "gratuit pour vous"
+    $(".fs_14_20.fs_16_24_ad").remove();
+    $(".ff_gct.pl_2.pt_150.pb_150.pr_2").append('<span class="fs_14_20 fs_16_24_ad">Cet article est réservé aux abonnés, mais grauit pour vous.</span>');
 
     // supprimer la pop inscription
     $(".sticky.below_nav.piano-paywall.relative").remove();
