@@ -20,7 +20,7 @@
 
     // change message pour ajouter "gratuit pour vous"
     $(".fs_14_20.fs_16_24_ad").remove();
-    $(".ff_gct.pl_2.pt_150.pb_150.pr_2").append('<span class="fs_14_20 fs_16_24_ad">Cet article est réservé aux abonnés, mais grauit pour vous.</span>');
+    $(".ff_gct.pl_2.pt_150.pb_150.pr_2").append('<span class="fs_14_20 fs_16_24_ad">Cet article est réservé aux abonnés, mais gratuit pour vous.</span>');
 
     // supprimer la pop inscription
     $(".sticky.below_nav.piano-paywall.relative").remove();
