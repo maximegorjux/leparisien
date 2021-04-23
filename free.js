@@ -15,6 +15,9 @@
 	const baseUrl = "http://www.leparisien.fr/";
     var $ = window.jQuery;
 
+    // div pour les commentaires (le site supprime cette div, du coup le bouton des commentaires peut être affiché), merci armSeb !
+    $(".width_full.flex").append('<div class="primary-button comment ui_bold" style="display: none;"></div>');
+
     //ajoute css bootstrap
     $(".width_full.flex").prepend('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">');
 
