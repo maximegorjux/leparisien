@@ -33,6 +33,9 @@
     //enleve message newletter
     $(".nl-article-card").remove();
 
+    //enleve message pour s'abonner
+    $('.paywall-sticky.pt_3.pb_3.pt_6_ad.pb_6_ad.pos_stick.ff_gct.fw_r.justify_center').remove();
+
     //fontion déflouter
     $("button").click(function(){
         $(".content").css({"filter": "blur(0px)"});
